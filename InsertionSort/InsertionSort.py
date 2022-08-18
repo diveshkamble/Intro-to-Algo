@@ -10,7 +10,7 @@ for i in range(1,len(a)):
 	while(j>=0 and a[j]>key):
 		a[j+1] = a[j]
 		j=j-1
-		a[j+1] = key
+	a[j+1] = key
 
 print("Array after Insertion Sort: ")
 for i in range(len(a)):

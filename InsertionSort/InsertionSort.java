@@ -13,8 +13,8 @@ class InsertionSort {
 			while (j >= 0 && a[j] > key) {
 				a[j + 1] = a[j];
 				j = j - 1;
-				a[j + 1] = key;
 			}
+			a[j + 1] = key;
 		}
 
 		System.out.println("Array After Insertion Sort: ");

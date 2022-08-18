@@ -20,8 +20,8 @@ int main() {
 		{
 			a[j + 1] = a[j];
 			j = j - 1;
-			a[j + 1] = key;
 		}
+		a[j + 1] = key;
 	}
 
 	cout << "Array After Insertion Sort: ";
