@@ -16,7 +16,7 @@ int main() {
 	{
 		key = a[i];
 		j = i - 1;
-		while (j >= 0 && a[j] > key)
+		while (j >= 0 && a[j] > key)  //By changing the greater than sign to lesser than sign, sorting can be reversed
 		{
 			a[j + 1] = a[j];
 			j = j - 1;
